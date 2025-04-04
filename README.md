@@ -4,13 +4,19 @@
 This repository is dedicated to Solidity smart contract development, covering everything from Solidity basics to advanced security best practices, development tools, dApp integration, and smart contract auditing.
 
 ## Table of Contents
-1. **Solidity Basics**  
-   - Variables and Data Types  
-   - Functions and Modifiers  
-   - Events and Logging  
-   - Mapping and Structs  
-   - Inheritance and Interfaces  
-   - Storage vs Memory  
+1. **Solidity Basic Concepts**
+   - [Variables and Data Types](basic/BasicVariables.sol) (`BasicVariables.sol`)
+   - [Functions and Visibility](basic/BankAccount.sol) (`BankAccount.sol`)
+   - [Conditionals](basic/EvenOddChecker.sol) (`EvenOddChecker.sol`)
+   - [Arrays](basic/TodoList.sol) (`TodoList.sol`)
+   - [Structs and Mappings](basic/VotingSystem.sol) (`VotingSystem.sol`)
+   - [Inheritance](basic/PetShop.sol) (`PetShop.sol`)
+   - [Interfaces](basic/TokenTransfer.sol) (`TokenTransfer.sol`)
+   - [Modifiers](basic/OwnerRestricted.sol) (`OwnerRestricted.sol`)
+   - [Events](basic/MessageNotifier.sol) (`MessageNotifier.sol`)
+   - [Error Handling](#error-handling) (`basic/ValueChecker.sol`)
+   - [Ether Transactions](basic/PaymentGateway.sol) (`PaymentGateway.sol`)
+   - [Storage and Memory](basic/LibrarySystem.sol) (`LibrarySystem.sol`)
 
 2. **Advanced Solidity & Security**  
    - Gas Optimization  
